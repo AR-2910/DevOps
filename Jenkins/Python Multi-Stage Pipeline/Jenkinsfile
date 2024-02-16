@@ -1,0 +1,25 @@
+pipeline {
+    agent {
+        docker {
+            image 'python:latest'
+        }
+    }
+    stages{
+        stage('check python version'){
+            steps{
+                sh 'python --version'
+            }
+        }
+        stage('check pip version'){
+            steps{
+                sh 'pip --version'
+            }
+        }
+        stage('end'){
+            steps{
+                echo 'Pipeline Completed Successfully'
+            }
+        }
+        
+    }
+}
