@@ -1,4 +1,4 @@
-#this is a test commit to check github actions 
+#this is a test commit  
 def binary_search(arr, target):
     left = 0
     right = len(arr) - 1
