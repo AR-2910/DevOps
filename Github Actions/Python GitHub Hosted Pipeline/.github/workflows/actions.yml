@@ -25,6 +25,6 @@ jobs:
         
       - name: Run tests
         run: |
-          cd Github Actions/Python GitHub Hosted Pipeline/src
+          cd src
           python -m pytest Application.py
 
