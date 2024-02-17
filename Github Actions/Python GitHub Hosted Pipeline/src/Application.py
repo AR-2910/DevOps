@@ -1,4 +1,4 @@
-#this is a test commit  
+#this is a test commit-2
 def binary_search(arr, target):
     left = 0
     right = len(arr) - 1
