@@ -1,10 +1,6 @@
 name: Python Application Github Actions
 
-on:
-  pull_request:
-  push:
-    branches:
-      - main
+on: [push]
 
 jobs:
   Build & Test:
@@ -30,5 +26,5 @@ jobs:
       - name: Run tests
         run: |
           cd src
-          python -m pytest Github Actions/Python GitHub Hosted Pipeline/src/Application.py
+          python -m pytest Application.py
 
