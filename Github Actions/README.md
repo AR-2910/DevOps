@@ -7,7 +7,7 @@ GitHub Actions allows users to define custom workflows in YAML files stored with
 ## Projects
 
 1. **Python Github Hosted Pipeline**: A workflow to automate the testing process for a Python application. It checks out the code, sets up the Python environment, installs dependencies, and runs tests using pytest.
-2. **Docker Self Hosted Pipeline**: A workflow to automate Dockerized app deployment using GitHub Actions with self-hosted runners. Checkout code, build, push Docker image and deploy to server.
+2. **Docker Self Hosted Pipeline**: A workflow to automate Dockerized app deployment using GitHub Actions with self-hosted runners. Checkout code, build Docker image and push Docker image to Docker Hub.
 
 ## Advantages of GitHub Actions
 
