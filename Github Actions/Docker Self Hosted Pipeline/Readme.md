@@ -12,7 +12,7 @@ The workflow consists of the following steps:
 - **Build Docker image**: Builds the Docker image for the application using the Dockerfile in the repository.
 - **Push Docker image to Docker Hub**: Pushes the built Docker image to Docker Hub, making it available for deployment.
 
-## GitHub Hosted Execution
+## Self Hosted Execution
 
 This project utilizes GitHub Actions with self-hosted runners to automate the deployment process. Self-hosted runners are used to execute the workflow, ensuring that deployment tasks are performed in an isolated and controlled environment. Self-hosted runners help handle infrastructure and compute resources, ensuring consistent dependency management, isolation from external threats, access controls, and maintaining configuration consistency through logging and monitoring.
 
