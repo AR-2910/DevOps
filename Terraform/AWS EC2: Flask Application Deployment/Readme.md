@@ -1,4 +1,4 @@
-# Flask Web Application Deployment on AWS EC2
+# AWS EC2: Flask Application Deployment Project
 
 ## Description
 
