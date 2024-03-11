@@ -1,0 +1,9 @@
+[DBservers]
+<server_ip>
+<server_ip>
+<server_ip>
+
+[WEBservers]
+<server_ip>
+<server_ip>
+<server_ip>
